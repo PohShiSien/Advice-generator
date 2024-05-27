@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        desktop: '375px',
+        desktop: '575px',
       },
       margin: {
         negative: '-1rem',
