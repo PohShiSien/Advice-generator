@@ -7,6 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        desktop: '375px',
+      },
+      margin: {
+        negative: '-1rem',
+      },
+      fontSize: {
+        quote: '28px',
+      },
+      fontWeight: {
+        quoteWeight: '800',
+      },
+      colors: {
+        lightCyan: 'var(--light-cyan)',
+        neonGreen: 'var(--neon-green)',
+        grayishBlue: 'var(--grayish-blue)',
+        darkGrayishBlue: 'var(--dark-grayish-blue)',
+        darkBlue: 'var(--dark-blue)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
